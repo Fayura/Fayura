@@ -1,0 +1,95 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+/* Header -> Nav Bar and  Banner */
+.banner{
+    max-width:100%;
+
+}
+.logo{
+    max-width:75px;
+    max-height: 50px;
+    margin:10px;
+}
+nav.menubar{
+    top:0;
+    left:0;
+    position: sticky;
+    z-index:1;
+    display:flex;
+    justify-content: space-between;
+    background-color: #242121;
+    box-shadow: 160px black;
+}
+nav.menubar ul{
+    display:flex;
+    justify-content:center;
+    padding:10px 2px;
+    flex-wrap:wrap
+}
+nav.menubar ul li{
+    font-family: arial;
+    padding:4px;
+    list-style-type: none;
+    margin:10px;
+}
+nav.menubar ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    
+}
+nav.menubar ul li:hover{
+    color: beige;
+    padding:3px;
+}
+body{
+    background: #363636;
+}
+.intro h4{
+    color:#f8f8f8;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 48px;
+    position: absolute;
+    top:20%;
+    left:50%;
+    text-shadow:2px 2px blue;
+}
+/* Main */
+main h2{
+    margin:0;
+    padding:3px;
+    color: white;
+    text-align: center;
+    background-color: #242121;
+}
+main p{
+    position: relative;
+    left:25%;
+    max-width:50%;
+    margin:2px;
+    color: white;
+    text-align: center;
+    line-height:2em;
+    font-family: monospace;
+    font-size:15px;
+}
+.info{
+    color:#212121;
+}
+.time{
+    color:#1a1a1a;
+    text-shadow:2px 2px black;
+}
+/* On Select */
+main p::selection,span::selection{
+    color: white;
+    background-color:black;
+}
+/* media-queries */
+
+@media screen and (max-width:818px){
+    .intro h4{
+        font-size: 24px;
+    }
+}
