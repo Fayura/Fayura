@@ -3,7 +3,6 @@
   margin: 0;
   box-sizing: border-box;
 
-  
   /* border: solid red 2px; */
 }
 :root {
@@ -33,17 +32,17 @@ body::-webkit-scrollbar-thumb {
 h1 {
   text-transform: uppercase;
   font-size: 3rem;
-  font-family: 'Audiowide', cursive;
+  font-family: "Audiowide", cursive;
   text-shadow: 2px 2px 8px white;
 }
 h2 {
   font-size: 1.5rem;
   text-transform: capitalize;
-  font-family: "Google Sans",Arial,sans-serif;
+  font-family: "Google Sans", Arial, sans-serif;
   font-weight: var(--width);
 }
-h5{
-  font-family: "Google Sans",Arial,sans-serif;
+h5 {
+  font-family: "Google Sans", Arial, sans-serif;
   font-weight: ;
 }
 header {
@@ -61,8 +60,8 @@ header {
 
 nav {
   margin: auto 2vw;
-  padding-top: 28.870px;
-  padding-bottom: 28.870px;
+  padding-top: 28.87px;
+  padding-bottom: 28.87px;
 }
 .logo {
   margin: -1vh 0;
@@ -87,12 +86,12 @@ li {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  font-family: sans-serif
+  font-family: sans-serif;
 }
 
-.team h1{
+.team h1 {
   text-transform: none;
-  font-family: "Google Sans",Arial,sans-serif;
+  font-family: "Google Sans", Arial, sans-serif;
   font-weight: normal;
   margin: 0px;
   padding: 0;
@@ -100,15 +99,15 @@ li {
   font-size: ;
   text-shadow: 2px 2px 8px aqua;
 }
-.team h2{
+.team h2 {
   text-transform: none;
-  font-family: "Google Sans",Arial,sans-serif;
+  font-family: "Google Sans", Arial, sans-serif;
   font-weight: normal;
   margin: 0px;
   color: white;
   font-size: ;
 }
-.team{
+.team {
   padding: 5vh 0;
   background-color: #1a1a1a;
   width: 100%;
@@ -123,106 +122,106 @@ li {
   color: black;
 }
 /* for one and only SAAI */
-.saai strong{
-  font-family: 'Press Start 2P', cursive;
+.saai strong {
+  font-family: "Press Start 2P", cursive;
   text-align: center;
 }
-article.saai{
-    position: relative;
-    overflow: auto;
-    background-color:;
-    color: white;
-    font-family: 'Audiowide', cursive;
-    font-size: 1px;
-    text-align: center;
-    text-align-last: ;
-    text-shadow: 2px 2px 8px black;
-    padding: 20px;
-    margin: 20%;
-    margin-left: 10%;
-    margin-bottom: 10px;
-    margin-top: 5%;
-    border: 2px transparent;
-    border-radius: 80px;
-    border-style: groove;
-    box-shadow: 5px 5px 10px #78e2de;
-    line-height: 25px;  
+article.saai {
+  position: relative;
+  overflow: auto;
+  background-color: ;
+  color: white;
+  font-family: "Audiowide", cursive;
+  font-size: 1px;
+  text-align: center;
+  text-align-last: ;
+  text-shadow: 2px 2px 8px black;
+  padding: 20px;
+  margin: 20%;
+  margin-left: 10%;
+  margin-bottom: 10px;
+  margin-top: 5%;
+  border: 2px transparent;
+  border-radius: 80px;
+  border-style: groove;
+  box-shadow: 5px 5px 10px #78e2de;
+  line-height: 25px;
 }
-img.saai__dp{
-    float: right;
-    padding-left: auto;
-    margin-left: 5%;
-    height: 150px;
-    border: transparent;
-    border-radius: 100%;
-    box-shadow: 2px 2px 8px #78e2de;
+img.saai__dp {
+  float: right;
+  padding-left: auto;
+  margin-left: 5%;
+  height: 150px;
+  border: transparent;
+  border-radius: 100%;
+  box-shadow: 2px 2px 8px #78e2de;
 }
 /* for thr one and only nots*/
-.nos strong{
-  font-family: 'Press Start 2P', cursive;
+.nos strong {
+  font-family: "Press Start 2P", cursive;
   text-align: center;
 }
-article.nos{
-    position: relative;
-    overflow: auto;
-    color: white;
-    font-family: 'Audiowide', cursive;
-    text-align: center;
-    text-shadow: 2px 2px 8px black;
-    padding: 20px;
-    margin: 20%;
-    margin-right: 10%;
-    margin-bottom: 10px;
-    margin-top: 5%;
-    border: 2px transparent;
-    border-radius: 500px;
-    border-style: groove;
-    box-shadow: -5px 5px 10px #78e2de;
-    line-height: 25px;  
+article.nos {
+  position: relative;
+  overflow: auto;
+  color: white;
+  font-family: "Audiowide", cursive;
+  text-align: center;
+  text-shadow: 2px 2px 8px black;
+  padding: 20px;
+  margin: 20%;
+  margin-right: 10%;
+  margin-bottom: 10px;
+  margin-top: 5%;
+  border: 2px transparent;
+  border-radius: 500px;
+  border-style: groove;
+  box-shadow: -5px 5px 10px #78e2de;
+  line-height: 25px;
 }
-img.nos__dp{
-    float: left;
-    padding-right: auto;
-    margin-right: 5%;
-    height: 150px;
-    border: transparent;
-    border-radius: 100%;
-    box-shadow: -2px 2px 8px #78e2de;
+img.nos__dp {
+  float: left;
+  padding-right: auto;
+  margin-right: 5%;
+  height: 150px;
+  border: transparent;
+  border-radius: 100%;
+  box-shadow: -2px 2px 8px #78e2de;
 }
 /* for one and only human */
-.rsp strong{
-  font-family: 'Press Start 2P', cursive;
+.rsp strong {
+  font-family: "Press Start 2P", cursive;
   text-align: center;
 }
-article.rsp{
-    position: relative;
-    overflow: auto;
-    background-color:;
-    color: white;
-    font-family: 'Audiowide', cursive;
-    font-size: 1px;
-    text-align: center;
-    text-align-last: ;
-    text-shadow: 2px 2px 8px black;
-    padding: 20px;
-    margin: 20%;
-    margin-left: 10%;
-    margin-bottom: 10px;
-    margin-top: 5%;
-    border: 2px transparent;
-    border-radius: 20%;
-    border-style: groove;
-    box-shadow: 5px 5px 10px #78e2de;
-    line-height: 25px;  
+article.rsp {
+  position: relative;
+  overflow: auto;
+  background-color: ;
+  color: white;
+  font-family: "Audiowide", cursive;
+  font-size: 1px;
+  text-align: center;
+  text-align-last: ;
+  text-shadow: 2px 2px 8px black;
+  padding: 20px;
+  margin: 20%;
+  margin-left: 10%;
+  margin-bottom: 10px;
+  margin-top: 5%;
+  border: 2px transparent;
+  border-radius: 20%;
+  border-style: groove;
+  box-shadow: 5px 5px 10px #78e2de;
+  line-height: 25px;
 }
-img.rsp__dp{
-    float: right;
-    padding-left: auto;
-    margin-left: 5%;
-    height: 150px;
-    border: transparent;
-    border-radius: 100%;
-    box-shadow: 2px 2px 8px #78e2de;
+img.rsp__dp {
+  float: right;
+  padding-left: auto;
+  margin-left: 5%;
+  height: 150px;
+  border: transparent;
+  border-radius: 100%;
+  box-shadow: 2px 2px 8px #78e2de;
 }
 
 .projec {
@@ -248,19 +247,19 @@ section.all {
   margin: 5vh 0;
   margin-bottom: 0;
 }
-.all ul{
+.all ul {
   margin-left: 50px;
   width: 20%;
   line-height: 25px;
 }
-.all a{
+.all a {
   margin-left: 0;
 }
-li.undrln{
+li.undrln {
   text-decoration: underline;
   margin-left: 0px;
   font-size: 46px;
-  font-family: "Google Sans",Arial,sans-serif;
+  font-family: "Google Sans", Arial, sans-serif;
   font-weight: 1px;
 }
 .join-us {
@@ -290,7 +289,7 @@ footer {
   justify-content: center;
   align-items: center;
 }
-.join-us li{
+.join-us li {
   display: inline-block;
 }
 /* ------------------------------------------------------------------------------------------------------------------------------- */
@@ -321,29 +320,29 @@ nav:hover {
   margin: auto 2vw;
   margin-top: 0px;
   margin-bottom: 0px;
-  padding-top: 28.870px;
-  padding-bottom: 28.870px;
+  padding-top: 28.87px;
+  padding-bottom: 28.87px;
 }
-l1:hover{
+l1:hover {
   color: b;
 }
-nav l1:hover{
+nav l1:hover {
   background-color: #78e2de;
   border: transparent;
   border-radius: 20px;
 }
 
-article.saai:hover{
+article.saai:hover {
   position: relative;
   top: -4px;
   left: -4px;
 }
-article.nos:hover{
+article.nos:hover {
   position: relative;
   top: -4px;
   right: -4px;
 }
-article.rsp:hover{
+article.rsp:hover {
   position: relative;
   top: -4px;
   left: -4px;
